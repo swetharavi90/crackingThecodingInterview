@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class isPermute {
 	public static boolean permute(String one, String two) {
+		if(one.length() != two.length())return false;	
 		char[] str1 = one.toLowerCase().toCharArray();
 		char[] str2 = two.toLowerCase().toCharArray();
 		Arrays.sort(str1);
