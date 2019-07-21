@@ -26,7 +26,7 @@ public class matrotate {
 			i++;			
 		}
 		System.out.println("After rotate");
-		display(A,A[0].length);
+		display(A,size);
 	}
 	public static void display(int[][] arr, int n) {
 		for (int i = 0 ; i < n ; i++) {
